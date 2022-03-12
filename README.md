@@ -1,0 +1,1 @@
+# Tribal Wars Message Helper

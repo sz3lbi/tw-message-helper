@@ -1,0 +1,40 @@
+{
+  "name": "tw-message-helper",
+  "version": "1.0.0",
+  "description": "A Tribal Wars helper tool for messages that parses them from JSON, auto-fills and submits the form.",
+  "main": "userscript/tw-message-helper.user.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:sz3lbi/tw-message-helper"
+  },
+  "author": {
+    "name": "szelbi",
+    "email": "szelbi@szelbi.ovh",
+    "url": "https://szelbi.ovh/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sz3lbi/tw-message-helper/issues"
+  },
+  "homepage": "https://github.com/sz3lbi/tw-message-helper",
+  "devDependencies": {
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "typescript-json-serializer": "^4.0.1"
+  },
+  "userscript": {
+    "license": "https://opensource.org/licenses/MIT",
+    "require-template": "https://cdn.jsdelivr.net/npm/{dependencyName}@{dependencyVersion}",
+    "match": [
+      "*://*/*"
+    ],
+    "downloadURL": "https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js",
+    "updateURL": "https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js"
+  }
+}
