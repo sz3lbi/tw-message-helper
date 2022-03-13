@@ -47,11 +47,11 @@ Po zainstalowaniu rozszerzenia przejdź do pliku ze skryptem. Możesz go znaleź
 Tampermonkey wykryje, że otworzyłeś plik `.user.js` i otworzy zakładkę, w której możesz zainstalować skrypt.  
 Jeżeli nic się nie stanie, możesz kliknąć ikonę Tampermonkey na pasku przeglądarki, następnie "**Dodaj nowy skrypt**" i zastąpić całą zawartość nowo otwartego okna tą, którą skopiowałeś z pliku. Pamiętaj, aby zapisać skrypt. Następnie możesz zamknąć zakładkę.
 
-W przypadku wykorzystanie drugiej ścieżki instalacji, po zainstalowaniu skryptu powinieneś kliknąć na ikonę Tampermonkey w pasku przeglądarki, następnie "**Panel sterowania**" i nazwę zainstalowanego skryptu, czyli `tw-message-helper`. Przejdź z zakładki "**Edytor**" do zakładki "**Ustawienia**" i upewnij się, że zaznaczyłeś pole wyboru "**Sprawdzaj dostępność aktualizacji**" w sekcji "**Aktualizacje**". Jeśli tego nie zrobisz, Twój skrypt nie będzie automatycznie aktualizowany do najnowszej wersji, gdy zostanie ona wydana! Pamiętaj, aby przed zamknięciem zakładki kliknąć przycisk "**Zapisz**" znajdujący się poniżej.
+W przypadku wykorzystanie drugiej ścieżki instalacji, po zainstalowaniu skryptu powinieneś kliknąć na ikonę Tampermonkey w pasku przeglądarki, następnie "**Panel sterowania**" i nazwę zainstalowanego skryptu, czyli `tw-message-helper`. Przejdź z zakładki "**Edytor**" do zakładki "**Ustawienia**" i upewnij się, że zaznaczyłeś pole wyboru "**Sprawdzaj dostępność aktualizacji**" w sekcji "**Aktualizacje**". Jeśli tego nie zrobisz, Twój skrypt nie będzie automatycznie aktualizowany do najnowszej wersji, gdy zostanie ona wydana. Pamiętaj, aby przed zamknięciem zakładki kliknąć przycisk "**Zapisz**" znajdujący się poniżej.
 
 ## Translations
 
-Obecnie skrypt dostarczany jest tylko w angielskiej wersji językowej.
+Obecnie skrypt jest dostarczany tylko w angielskiej wersji językowej.
 
 ## Plans for the future
 
