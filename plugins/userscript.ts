@@ -110,7 +110,7 @@ export function generateHeader() {
   // Add userscript header's homepage, homepageURL, website or source.
   if (packageJson.homepage || userscript.homepage) {
     headers.push(
-      `// @homepage ${userscript.homepage ?? packageJson["homepage"]}`
+      `// @homepageURL ${userscript.homepage ?? packageJson["homepage"]}`
     );
   } else if (userscript.homepageURL) {
     headers.push(`// @homepageURL ${userscript.homepageURL}`);
