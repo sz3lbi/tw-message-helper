@@ -1699,7 +1699,7 @@ const MessageHelper = {
         const updateAndSaveButton = document.createElement("input");
         updateAndSaveButton.id = updateAndSaveButtonId;
         updateAndSaveButton.type = "button";
-        updateAndSaveButton.value = "Update & Save";
+        updateAndSaveButton.value = "Update and save";
         return updateAndSaveButton;
     },
     createFillAndSendButton: function () {
@@ -1707,7 +1707,7 @@ const MessageHelper = {
         const fillAndSendButton = document.createElement("input");
         fillAndSendButton.id = fillAndSendButtonId;
         fillAndSendButton.type = "button";
-        fillAndSendButton.value = "Fill & Send";
+        fillAndSendButton.value = "Fill and send";
         return fillAndSendButton;
     },
     createInfoDiv: function () {
