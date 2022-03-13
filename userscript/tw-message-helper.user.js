@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name tw-message-helper
 // @version 1.0.0
-// @description A Tribal Wars helper tool for messages that parses them from JSON, auto-fills and submits the form.
+// @description A Tribal Wars game message helper tool that reads messages from JSON format, automatically fills in a form and sends it.
 // @author szelbi
 // @homepageURL https://github.com/sz3lbi/tw-message-helper
 // @updateURL https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js
