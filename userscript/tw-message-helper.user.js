@@ -3,7 +3,7 @@
 // @version 1.0.0
 // @description A Tribal Wars helper tool for messages that parses them from JSON, auto-fills and submits the form.
 // @author szelbi
-// @homepage https://github.com/sz3lbi/tw-message-helper
+// @homepageURL https://github.com/sz3lbi/tw-message-helper
 // @updateURL https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js
 // @downloadURL https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js
 // @match *://*/*
@@ -1633,8 +1633,10 @@ const MessageHelper = {
             }
             if (jsonTextAreaValue) {
                 this.messages = this.deserializeJson(jsonTextAreaValue);
-                localStorage.setItem(messagesJsonLocalStorageId, jsonTextAreaValue);
-                infoDiv.textContent = this.createMessagesInfoString(this.messages.length);
+                if (this.messages.length) {
+                    localStorage.setItem(messagesJsonLocalStorageId, jsonTextAreaValue);
+                    infoDiv.textContent = this.createMessagesInfoString(this.messages.length);
+                }
             }
         });
         const twRecipientInput = twSendMessageForm.querySelector("input[id='to']");
@@ -1670,8 +1672,13 @@ const MessageHelper = {
             if (twMessageTextArea instanceof HTMLTextAreaElement) {
                 twMessageTextArea.value = lastMessage.content;
             }
-            const jsonString = this.serializeMessages(this.messages);
-            localStorage.setItem(messagesJsonLocalStorageId, jsonString);
+            if (this.messages.length) {
+                const jsonString = this.serializeMessages(this.messages);
+                localStorage.setItem(messagesJsonLocalStorageId, jsonString);
+            }
+            else {
+                localStorage.removeItem(messagesJsonLocalStorageId);
+            }
             if (twSendMessageButton instanceof HTMLElement) {
                 twSendMessageButton.click();
             }
