@@ -10,6 +10,7 @@ The script has been written in the TypeScript language and is compiled to the Ja
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 - [Translations](#translations)
 - [Plans for the future](#plans-for-the-future)
 
@@ -18,6 +19,17 @@ The script has been written in the TypeScript language and is compiled to the Ja
 Tutorial: [UserScipt Installation tutorial](https://github.com/sz3lbi/userscipt-installation-tutorial/blob/main/README.md)
 
 You can find the script file here: [tw-message-helper.user.js](https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js)  
+
+## Usage
+
+Example JSON input:
+
+```json
+[
+  { "recipient": "Bill", "content": "example message 001" },
+  { "recipient": "John", "content": "example message 002" }
+]
+```
 
 ## Translations
 

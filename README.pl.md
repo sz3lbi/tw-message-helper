@@ -10,6 +10,7 @@ Skrypt został napisany w języku TypeScript i jest kompilowany do języka JavaS
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 - [Translations](#translations)
 - [Plans for the future](#plans-for-the-future)
 
@@ -18,6 +19,17 @@ Skrypt został napisany w języku TypeScript i jest kompilowany do języka JavaS
 Przewodnik: [Przewodnik instalacji skryptu użytkownika (UserScript)](https://github.com/sz3lbi/userscipt-installation-tutorial/blob/main/README.pl.md)
 
 Plik skryptu można znaleźć tutaj: [tw-message-helper.user.js](https://raw.githubusercontent.com/sz3lbi/tw-message-helper/master/userscript/tw-message-helper.user.js)  
+
+## Usage
+
+Przykładowe dane wejściowe JSON:
+
+```json
+[
+  { "recipient": "Bill", "content": "przykładowa wiadomość 001" },
+  { "recipient": "John", "content": "przykładowa wiadomość 002" }
+]
+```
 
 ## Translations
 
